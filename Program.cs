@@ -1,4 +1,5 @@
-﻿using System.IO;
+//Written for Divine Souls. https://store.steampowered.com/app/300040
+using System.IO;
 
 namespace Divine_Souls_Extractor
 {
