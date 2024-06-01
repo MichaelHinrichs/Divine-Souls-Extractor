@@ -8,7 +8,6 @@ namespace Divine_Souls_Extractor
         public static BinaryReader br;
         static void Main(string[] args)
         {
-            
             string path = Path.GetDirectoryName(args[0]) + "//" + Path.GetFileNameWithoutExtension(args[0]);
             BinaryReader dfh = new(File.OpenRead(path + ".dfh"));
             BinaryReader dfp = new(File.OpenRead(path + ".dfp"));
