@@ -53,6 +53,9 @@ namespace Divine_Souls_Extractor
                     case "ÿûâ`":
                         File.Move(path + "//" + i, path + "//" + i + ".mp3");
                         break;
+                    case "bm8\0":
+                        File.Move(path + "//" + i, path + "//" + i + ".bmp");
+                        break;
                     //Todo: list of file names = .ifl
                     //Todo: 0x200000 = ???
                     default: break;
